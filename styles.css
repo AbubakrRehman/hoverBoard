@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.board{
+    border:2px solid red;
+    max-width: 680px;
+    margin: 0 auto;
+    /* margin-top: 150px; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 0 10px;
+    
+
+}
+
+.square{
+    display: flex;
+    min-width: 30px;
+    height: 30px;
+    border: 1px solid black;
+    margin: 2px;
+   
+}
