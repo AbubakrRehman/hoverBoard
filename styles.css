@@ -6,10 +6,10 @@
 
 
 .board{
-    border:2px solid red;
+    /* border:2px solid red; */
     max-width: 680px;
     margin: 0 auto;
-    /* margin-top: 150px; */
+    margin-top: 70px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -19,10 +19,22 @@
 }
 
 .square{
+    background-color: white;
     display: flex;
-    min-width: 30px;
-    height: 30px;
+    min-width: 20px;
+    height: 20px;
     border: 1px solid black;
     margin: 2px;
+    transition: background-color 1s ease ;
+
+    color:rgba(red, green, blue, alpha)
    
 }
+
+
+
+
+
+/* .square:hover{
+    cursor: pointer;
+} */
